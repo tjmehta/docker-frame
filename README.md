@@ -1,4 +1,4 @@
-# docker-frame
+# docker-frame [![Build Status](https://travis-ci.org/tjmehta/docker-frame.svg?branch=master)](https://travis-ci.org/tjmehta/docker-frame)
 create a docker stream frame (header and payload)
 
 ## Usage
