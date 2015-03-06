@@ -1,0 +1,39 @@
+{
+  "name": "docker-frame",
+  "version": "1.0.0",
+  "description": "create a docker stream frame (header and payload, encoded tty data)",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test -c",
+    "test-watch": "nodemon -x 'lab test -c'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/docker-frame.git"
+  },
+  "keywords": [
+    "docker",
+    "frame",
+    "header",
+    "payload",
+    "stream",
+    "tty",
+    "multiplex",
+    "stdout",
+    "stderr"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/docker-frame/issues"
+  },
+  "homepage": "https://github.com/tjmehta/docker-frame",
+  "devDependencies": {
+    "code": "^1.3.0",
+    "lab": "^5.4.0",
+    "nodemon": "^1.3.7"
+  },
+  "dependencies": {
+    "101": "^0.13.0"
+  }
+}
